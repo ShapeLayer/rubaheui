@@ -1,8 +1,6 @@
 # Rubaheui
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rubaheui`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+루바희는 루비로 작동하는 아희 인터프리터입니다. 독자적인 소프트웨어로 작동할 수 있도록 하는 것을 목표로 작업하고 있습니다.
 
 ## Installation
 
@@ -22,7 +20,6 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
 
 ## Development
 
@@ -37,7 +34,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the Rubaheui project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/rubaheui/blob/master/CODE_OF_CONDUCT.md).
