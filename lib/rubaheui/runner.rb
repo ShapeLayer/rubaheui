@@ -48,6 +48,7 @@ module Rubaheui
         when 11 # ㅇ: Nil
           # 없음 명령
         when 18 # ㅎ: Exit(return)
+          puts
           pop = process_pop_current
           exit pop != nil ? pop : 0
         when 3  # ㄷ: Add
@@ -317,7 +318,7 @@ if __FILE__ == $0
   require_relative "commons"
   require_relative "errors"
   require_relative "parser"
-  file = File.open("../../scripts/99_beers.aheui")
+  file = File.open("../../snippets/pi.aheui")
   script = file.read
   runner = Rubaheui::Runner::Instance.new(script)
   puts runner.get_code

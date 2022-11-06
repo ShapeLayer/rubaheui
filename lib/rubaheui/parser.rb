@@ -23,7 +23,7 @@ if __FILE__ == $0
   require_relative "commons"
   require_relative "errors"
   require_relative "parser"
-  for s in '갃낳다라마바사아자차카타파하ㅎ'.split('')
+  for s in '가낙갂갃간갅갆갇갈갉갊갋갌갍갎갏감갑값갓갔강갖갗갘같갚갛'.split('')
     c = s + ' '
     Rubaheui::Parser.parse(s).each do |item|
       c += "%s(%s)" % [item, Rubaheui::Commons.stroke_counts[item]]

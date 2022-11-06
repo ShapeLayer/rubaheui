@@ -1,6 +1,6 @@
 module Rubaheui
   module Commons
-    @@stroke_counts = [nil, 2, 4, 4, 2, 5, 5, 3, 5, 7, 9, 9, 7, 9, 9, 8, 4, 4, 6, 2, 4, nil, 3, 4, 3, 4, nil]
+    @@stroke_counts = [nil, 2, 4, 4, 2, 5, 5, 3, 5, 7, 9, 9, 7, 9, 9, 8, 4, 4, 6, 2, 4, nil, 3, 4, 3, 4, 4, nil]
     def self.is_integer?(val)
       val.to_i.to_s == val
     end
